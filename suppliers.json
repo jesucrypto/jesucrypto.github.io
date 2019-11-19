@@ -1,23 +1,20 @@
-{
-	"suppliers" : [
-
-			{"supplier" : "Agroproduce",
-				"logo" : "images/supplierlogos/cp1.png"
-			},
-			{"supplier" : "Carribean Produce",
-				"logo" : "images/supplierlogos/cp1.png"
-			},
-			{"supplier" : "El Viandon",
-				"logo" : "images/supplierlogos/cp1.png"
-			},
-			{"supplier" : "El Bananero",
-				"logo" : "images/supplierlogos/cp1.png"
-			},
-			{"supplier" : "El Chinazo",
-				"logo" : "images/supplierlogos/cp1.png"
-			},
-			{"supplier" : "El Bacalo Apestoso",
-				"logo" : "images/supplierlogos/cp1.png"
-			}
-		]
-}
+[
+	{"title" : "Agroproduce",
+		"image" : "images/supplierlogos/cp1.png"
+	},
+	{"title" : "Carribean Produce",
+		"image" : "images/supplierlogos/cp1.png"
+	},
+	{"title" : "El Viandon",
+		"image" : "images/supplierlogos/cp1.png"
+	},
+	{"title" : "El Bananero",
+		"image" : "images/supplierlogos/cp1.png"
+	},
+	{"title" : "El Chinazo",
+		"image" : "images/supplierlogos/cp1.png"
+	},
+	{"title" : "El Bacalo Apestoso",
+		"image" : "images/supplierlogos/cp1.png"
+	}
+]
