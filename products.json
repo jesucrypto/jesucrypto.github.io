@@ -4,41 +4,41 @@
     "unit" : "lb",
     "title" : "china",
     "image" : "./image.png",
-    "stock" : "50",
+    "stock" : "50"
   },
   {
     "price": "50",
     "unit" : "lb",
     "title" : "china",
     "image" : "./image.png",
-    "stock" : "50",
+    "stock" : "50"
   },
   {
     "price": "50",
     "unit" : "lb",
     "title" : "china",
     "image" :"./image.png",
-    "stock" : "50",
+    "stock" : "50"
   },
   {
     "price": "50",
     "unit" : "lb",
     "title" : "china",
     "image" :"./image.png",
-    "stock" : "50",
+    "stock" : "50"
   },
   {
     "price": "50",
     "unit" : "lb",
     "title" : "china",
     "image" :"./image.png",
-    "stock" : "50",
+    "stock" : "50"
   },
   {
     "price": "50",
     "unit" : "lb",
     "title" : "china",
     "image" :"./image.png",
-    "stock" : "50",
+    "stock" : "50"
   },
 ]
