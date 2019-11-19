@@ -1,11 +1,11 @@
 {
 	"suppliers" : [
-			["Agroproduce", "images/supplierlogos/cp1.png"] 
-			["Carribean Produce", "images/supplierlogos/cp1.png"] 
-			["El Viandon", "images/supplierlogos/cp1.png"] 
-			["Vegetales Lorenzo", "images/supplierlogos/cp1.png"]
-			["El Chinazo", "images/supplierlogos/cp1.png"]
-			["Chinas no Botellas", "images/supplierlogos/cp1.png"]
+			["Agroproduce", "images/supplierlogos/cp1.png"], 
+			["Carribean Produce", "images/supplierlogos/cp1.png"], 
+			["El Viandon", "images/supplierlogos/cp1.png"], 
+			["Vegetales Lorenzo", "images/supplierlogos/cp1.png"],
+			["El Chinazo", "images/supplierlogos/cp1.png"],
+			["Chinas no Botellas", "images/supplierlogos/cp1.png"],
 			["El Bananero", "images/supplierlogos/cp1.png"]
 		]	
 }
