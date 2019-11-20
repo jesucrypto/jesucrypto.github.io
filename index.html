@@ -1,200 +1,389 @@
 <!DOCTYPE html>
-<html>
-<title></title>
+<html lang="es">
 <head>
-  <meta lan="es" charset="utf-8">
-  <link rel="stylesheet" href="style.css"/>
+  <title>
+    Clasificados Electronicos
+  </title>
+  <meta charset="UTF-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/6228ba2463.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
   <script src="script.js"></script>
 </head>
 <body>
-  <div class="overlay">
+  <div class="content centralize">
     <div class="navbar">
-      <div class="nav-area">
-        <div class="logo">
-          <a href="./index.html">
-            <img alt="logo" src="./assets/bohiologo.png">
-          </a>
+      <div class="toggle centralize">
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
+      <div id="nav-items">
+        <div class="nav-item">
+          <span>VEHICULOS</span>
+          <div class="dropdown centralize">
+            <span class="dropdown-item">AUTOS</span>
+            <span class="dropdown-item">MOTORAS</span>
+            <span class="dropdown-item">BOTES</span>
+            <span class="dropdown-item">CLASICOS</span>
+            <span class="dropdown-item">AVIONES</span>
+            <span class="dropdown-item">REMOLQUES</span>
+            <span class="dropdown-item">PICKUPS</span>
+            <span class="dropdown-item">VANES</span>
+          </div>
         </div>
-        <div class="nav-items interactive-text">
-          <div class="nav-item">COMIENZO</div>
-          <div class="nav-item">FUNCIONES</div>
-          <div class="nav-item">PRECIO</div>
-          <div class="nav-item">INSCRIBETE</div>
+        <div class="nav-item">
+          <span>BIENES RAICES</span>
+          <div class="dropdown centralize">
+            <span class="dropdown-item">CONDOMINIOS</span>
+            <span class="dropdown-item">CASAS VENTA</span>
+            <span class="dropdown-item">APARTAMENTOS</span>
+            <span class="dropdown-item">CASAS RENTA</span>
+            <span class="dropdown-item">COMERCIALES</span>
+            <span class="dropdown-item">VACACIONES</span>
+            <span class="dropdown-item">TERRENOS</span>
+          </div>
         </div>
+        <div class="nav-item">
+          <span>NEGOCIOS</span>
+          <div class="dropdown centralize">
+            <span class="dropdown-item">SERVICIOS</span>
+            <span class="dropdown-item">EMPLEOS</span>
+            <span class="dropdown-item">SALUD</span>
+            <span class="dropdown-item">MEGA PAGINAS</span>
+          </div>
+        </div>
+        <div class="nav-item">
+          <span>MUCHO MAS</span>
+          <div class="dropdown centralize">
+            <span class="dropdown-item">MASCOTAS</span>
+            <span class="dropdown-item">MUEBLES</span>
+            <span class="dropdown-item">ROPA</span>
+            <span class="dropdown-item">MUCHO MAS</span>
+            <span class="dropdown-item">ENSERES</span>
+            <span class="dropdown-item">INSTRUMENTOS</span>
+            <span class="dropdown-item">LIBROS</span>
+            <span class="dropdown-item">CLASES</span>
+          </div>
+        </div>
+        <button class="nav-item">ACCEDER</button>
+        <button class="nav-item">REGISTRARSE</button>
+        <button class="nav-item">PREMIUM</button>
+      </div>
+      <div class="accounts centralize">
+
       </div>
     </div>
-  </div>
-  <div class="landing-area centralize-col">
-    <div class="centralize-row">
-      <div class="fl-start-col">
-        <div class="banner transparent-bg">
-          Corre tu agronegocio. <br> Bohio se encargara del resto.
-        </div>
-        <div class="call-to-action interactive-text">
-            INSCRIBETE YA
-        </div>
-      </div>
-      <div class="bohio-diagram centralize-col">
-        <img alt="diagram" src="./assets/bohiodiagram.png"/>
-      </div>
+    <div class="offer centralize-row">
+       <!--span class="highlight">
+         ¡Realtors y Dealers!
+       </span-->
+       1000 anuncios por $40 |
+       Anuncios de tarjeta $60 por un año, 787-882-0592.
     </div>
-  </div>
-  <div class="section centralize-col">
-    <div class="features-area centralize-col">
-      <div class="features flex-column">
-        <div class="feature-row flex-row">
-          <div class="feature centralize-col">
-            <div class="feature-section centralize-col">
-              <span style="color: #af2bbf">
-                <i class="fas fa-box-open fa-7x"></i>
-              </span>
-            </div>
-            <div class="feature-section centralize-col">
-              <div class="feature-text">
-                Ordena tus productos de suplidores locales y
-                rastrea tus ordenes.
-              </div>
-            </div>
+    <div class="main-container flex-column">
+      <div class="main flex-column">
+        <div class="action">
+          <div class="banner centralize">
+          <div class="logo centralize">
+            <img alt="logo" src="./assets/banner3big.png"/>
           </div>
-          <div class="feature">
-            <div class="feature-section centralize-col">
-              <span style="color: #af2bbf">
-                <i class="fas fa-comments fa-7x"></i>
-              </span>
-            </div>
-            <div class="feature-section centralize-col">
-              <div class="feature-text">
-                Estabelece tratos, relaciones y conexiones
-                nuevas con suplidores y clientes.
-              </div>
-            </div>
-          </div>
-          <div class="feature">
-            <div class="feature-section centralize-col">
-              <span style="color: #af2bbf">
-                <i class="far fa-chart-bar fa-7x"></i>
-              </span>
-            </div>
-            <div class="feature-section centralize-col">
-              <div class="feature-text">
-                 Optimiza tu inventario con proyecciones
-                 e indicadores claves.
-              </div>
+          <div class="slogan centralize-row">
+            <div class="centralize-row">
+              <span class="highlight"> 1.5 millones </span> de accessos en el 2018 |
+              Mas de <span class="highlight"> 10,000 </span>anuncios
             </div>
           </div>
         </div>
-        <div class="feature-row flex-row">
-          <div class="feature">
-            <div class="feature-section centralize-col">
-              <span style="color: #af2bbf">
-                <i class="fas fa-file-excel fa-7x"></i>
-              </span>
-            </div>
-            <div class="feature-section centralize-col">
-              <div class="feature-text">
-                Integra facilmente tu sistema actual de manejo de inventario.
-              </div>
-            </div>
-          </div>
-          <div class="feature">
-            <div class="feature-section centralize-col">
-              <span style="color: #af2bbf">
-                <i class="fas fa-robot fa-7x"></i>
-              </span>
-            </div>
-            <div class="feature-section centralize-col">
-              <div class="feature-text">
-                Automatiza ordenes y pagos, o permita que bohio
-                estructure un plan basado en sus indicadores claves.
-              </div>
-            </div>
-          </div>
-          <div class="feature">
-            <div class="feature-section centralize-col">
-              <span style="color: #af2bbf">
-                <i class="fas fa-box-open fa-7x"></i>
-              </span>
-            </div>
-            <div class="feature-section centralize-col">
-              <div class="feature-text">
-                This feature is bomb.
-                You are dumb if it doesn't
-                solve your problem.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="section centralize-col">
-    <div class="pricing-area centralize-col">
-      <div class="pricing flex-row">
-        <div class="price centralize-col">
-          <div class="amount centralize-col">
-            <div class="greens">$0</div>
-          </div>
-          <div class="includes flex-column">
-            <ul>
-              <li>30 day free trial</li>
-              <li>funcionalidad completa</li>
-            </ul>
-          </div>
-        </div>
-        <div class="price">
-          <div class="amount centralize-col">
-            <div class="greens">$29.99</div>
-          </div>
-          <div class="includes flex-column">
-            <ul>
-              <li>manejo de inventario</li>
-            </ul>
-          </div>
-        </div>
-        <div class="price">
-          <div class="amount centralize-col">
-            <div class="greens">$39.99/mes</div>
-          </div>
-          <div class="includes flex-column">
-            <ul>
-              <li>manejo de inventario</li>
-              <li>networking</li>
-              <li>ordenes</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="section centralize-col">
-    <div class="movement-area centralize-col">
-      <div class="movement-banner centralize-col">
-        <div style="font-size:400%">Unete al Movimiento</div>
-      </div>
-      <div style="font-size:150%" class="blog centralize-col">
-        Nuestra mision es traer a la agroindustria boricua al futuro.
-        <a href="">Aprende mas sobre nuestro compromiso</a>
-      </div>
-      <div style="font-size:150%; margin-top: 60px;" class="signup-form centralize-col">
-        <div>Se de los primeros
-          en unirte al progreso
-          cuando lancemos a principios de 2020</div>
-          <form class="centralize-col" action="">
-            Negocio/Nombre : <input type="text">
-            Email: <input type="text"/>
-            <button type="submit">Enviar</button>
+        <div class="searchbar centralize-row">
+          <form action="" class="centralize-row">
+            <input type="text" placeholder="que (y donde).." name="search">
+            <button class="centralize" type="submit"><i class="fa fa-search"></i></button>
           </form>
+        </div>
+        <div class="post margin centralize-row">
+          <button class="centralize-row">
+            PUBLICAR ANUNCIO
+          </button>
+        </div>
       </div>
-      <div class="social centralize-row">
-        <div class="social-icon"><img alt="fb" src="./assets/facebook.png"/></div>
-        <div class="social-icon"><img alt="fb" src="./assets/instagram.png"/></div>
-        <div class="social-icon"><img alt="fb" src="./assets/twitter.png"/></div>
+        <div class="categories centralize">
+          <div class="cat-title">
+            VEHICULOS
+          </div>
+          <div class="category flex-row">
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/vehiculos/220autos.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                autos
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/vehiculos/220motoras.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                motoras
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/vehiculos/220botes.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                botes
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/vehiculos/220antiguos.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                clasicos
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/vehiculos/220aviones.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                aviones
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/vehiculos/220remolques.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                remolques
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/vehiculos/220pickup.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                pickups
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/vehiculos/220vanes.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                vanes
+              </div>
+            </div>
+          </div>
+          <div class="cat-title">
+            BIENES RAICES
+          </div>
+          <div class="category flex-row">
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/bienesraices/220condominios.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                condominios
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/bienesraices/220casasventas.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                casas venta
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/bienesraices/220apartamentos.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                apartamentos
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/bienesraices/220casasalquiler.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                casas renta
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/bienesraices/220comerciales.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                comerciales
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/bienesraices/220vacaciones.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                vacaciones
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/bienesraices/220terrenos.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                terrenos
+              </div>
+            </div>
+          </div>
+          <div class="cat-title">
+            MUCHO MAS
+          </div>
+          <div class="category flex-row">
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/muchomas/220mascotas.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                mascotas
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/muchomas/220muebles.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                muebles
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/muchomas/220ropa.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                ropa
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/muchomas/220miscelaneos.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                mucho mas
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/muchomas/220enceres.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                enceres
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/muchomas/220instrumentos.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                instrumentos
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/muchomas/220libros.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                libros
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/muchomas/220clases.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                clases
+              </div>
+            </div>
+          </div>
+          <div class="cat-title">
+            NEGOCIOS
+          </div>
+          <div class="category flex-row">
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/negocios/220servicios.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                servicios
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/negocios/220empleos.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                empleos
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/negocios/220salud.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                salud
+              </div>
+            </div>
+            <div class="subcategory centralize">
+              <div class="subcat-image">
+                <img src="./assets/negocios/220mega.jpg"
+                alt="subcat-image"/>
+              </div>
+              <div class="subcat-title">
+                mega paginas
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</body>
-<footer>
-</footer>
-</html>
+      <div class="options centralize-row">
+        <div class="option"><u>Mi Cuenta</u></div>
+        <div class="option"><u>Contacto</u></div>
+        <div class="option"><u>Otros Paises</u></div>
+        <div class="option"><u>English</u></div>
+      </div>
+      </div>
+    </div><!--content end-->
+  </body>
+  <footer>
+  </footer>
+  </html>
