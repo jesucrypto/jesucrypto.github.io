@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.6cfe0aa4.chunk.css",
-    "main.js": "/static/js/main.fc9c732f.chunk.js",
-    "main.js.map": "/static/js/main.fc9c732f.chunk.js.map",
+    "main.css": "/static/css/main.15c069a1.chunk.css",
+    "main.js": "/static/js/main.8611c36f.chunk.js",
+    "main.js.map": "/static/js/main.8611c36f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e6444462.js",
     "runtime-main.js.map": "/static/js/runtime-main.e6444462.js.map",
     "static/js/2.ea42b9c3.chunk.js": "/static/js/2.ea42b9c3.chunk.js",
     "static/js/2.ea42b9c3.chunk.js.map": "/static/js/2.ea42b9c3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.77bee94a48142b2ccae59317eae5a6e8.js": "/precache-manifest.77bee94a48142b2ccae59317eae5a6e8.js",
+    "precache-manifest.b70630ca492868a4ae86d3e4bbde41c2.js": "/precache-manifest.b70630ca492868a4ae86d3e4bbde41c2.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6cfe0aa4.chunk.css.map": "/static/css/main.6cfe0aa4.chunk.css.map",
+    "static/css/main.15c069a1.chunk.css.map": "/static/css/main.15c069a1.chunk.css.map",
     "static/media/agroproduce.png": "/static/media/agroproduce.7c2ea1d5.png",
     "static/media/arrow.svg": "/static/media/arrow.1fce7054.svg",
     "static/media/bohiologo.png": "/static/media/bohiologo.40790360.png",
     "static/media/chinaGuineo.jpg": "/static/media/chinaGuineo.49dc1062.jpg",
     "static/media/drouyn.png": "/static/media/drouyn.0916ef62.png",
     "static/media/hillbros.png": "/static/media/hillbros.907eacbd.png",
-    "static/media/viandon.png": "/static/media/viandon.f88ab74f.png"
+    "static/media/viandon.jpg": "/static/media/viandon.b11f9274.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e6444462.js",
     "static/js/2.ea42b9c3.chunk.js",
-    "static/css/main.6cfe0aa4.chunk.css",
-    "static/js/main.fc9c732f.chunk.js"
+    "static/css/main.15c069a1.chunk.css",
+    "static/js/main.8611c36f.chunk.js"
   ]
 }
