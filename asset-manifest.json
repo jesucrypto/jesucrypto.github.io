@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c1c287d.chunk.css",
-    "main.js": "/static/js/main.74d78563.chunk.js",
-    "main.js.map": "/static/js/main.74d78563.chunk.js.map",
+    "main.css": "/static/css/main.494035ff.chunk.css",
+    "main.js": "/static/js/main.affff6d2.chunk.js",
+    "main.js.map": "/static/js/main.affff6d2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e6444462.js",
     "runtime-main.js.map": "/static/js/runtime-main.e6444462.js.map",
     "static/js/2.bc409350.chunk.js": "/static/js/2.bc409350.chunk.js",
     "static/js/2.bc409350.chunk.js.map": "/static/js/2.bc409350.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cdaa02ebe31046d37ec2f311709edab2.js": "/precache-manifest.cdaa02ebe31046d37ec2f311709edab2.js",
+    "precache-manifest.65bc1315eebe4b7885726f924e39a492.js": "/precache-manifest.65bc1315eebe4b7885726f924e39a492.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6c1c287d.chunk.css.map": "/static/css/main.6c1c287d.chunk.css.map",
+    "static/css/main.494035ff.chunk.css.map": "/static/css/main.494035ff.chunk.css.map",
     "static/media/agroproduce.png": "/static/media/agroproduce.7c2ea1d5.png",
     "static/media/arrow.svg": "/static/media/arrow.1fce7054.svg",
     "static/media/bohiologo.png": "/static/media/bohiologo.40790360.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.e6444462.js",
     "static/js/2.bc409350.chunk.js",
-    "static/css/main.6c1c287d.chunk.css",
-    "static/js/main.74d78563.chunk.js"
+    "static/css/main.494035ff.chunk.css",
+    "static/js/main.affff6d2.chunk.js"
   ]
 }
